@@ -13,6 +13,8 @@
 		4588CB941D844760009951BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4588CB931D844760009951BE /* Images.xcassets */; };
 		4588CB971D844760009951BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4588CB951D844760009951BE /* LaunchScreen.xib */; };
 		4588CBA31D844760009951BE /* MyCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588CBA21D844760009951BE /* MyCalcTests.swift */; };
+		4588CBAD1D84D5B6009951BE /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588CBAC1D84D5B6009951BE /* PercentViewController.swift */; };
+		4588CBAF1D84EAD7009951BE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588CBAE1D84EAD7009951BE /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4588CB9C1D844760009951BE /* MyCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4588CBA11D844760009951BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4588CBA21D844760009951BE /* MyCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalcTests.swift; sourceTree = "<group>"; };
+		4588CBAC1D84D5B6009951BE /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
+		4588CBAE1D84EAD7009951BE /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				4588CB8C1D844760009951BE /* AppDelegate.swift */,
 				4588CB8E1D844760009951BE /* ViewController.swift */,
+				4588CBAC1D84D5B6009951BE /* PercentViewController.swift */,
+				4588CBAE1D84EAD7009951BE /* ResultViewController.swift */,
 				4588CB901D844760009951BE /* Main.storyboard */,
 				4588CB931D844760009951BE /* Images.xcassets */,
 				4588CB951D844760009951BE /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				4588CB8F1D844760009951BE /* ViewController.swift in Sources */,
 				4588CB8D1D844760009951BE /* AppDelegate.swift in Sources */,
+				4588CBAD1D84D5B6009951BE /* PercentViewController.swift in Sources */,
+				4588CBAF1D84EAD7009951BE /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
